@@ -348,25 +348,36 @@ namespace CppCLRWinformsProjekt {
 	}
 	private: System::Void button_add_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
+		int animal_field_lenght = text_animal->TextLength;
+		
+		if (animal_field_lenght > 0) // Animal name is mandatory, properties are optional ! 
+		{
+			TreeNode^ animal = gcnew TreeNode(text_animal->Text);
+			animal->Tag = "animal"; // tag allows to delete node
+			database->Nodes->Add(animal);
+			TreeNode^ type = gcnew TreeNode("Вид: " + text_type->Text);
+			animal->Nodes->Add(type);
+			TreeNode^ variety = gcnew TreeNode("Порода: " + text_variety->Text);
+			animal->Nodes->Add(variety);
+			TreeNode^ classification = gcnew TreeNode("Класс: " + text_class->Text);
+			animal->Nodes->Add(classification);
+			TreeNode^ food = gcnew TreeNode("Корм: " + text_food->Text);
+			animal->Nodes->Add(food);
+			TreeNode^ card = gcnew TreeNode("Карточка учета: " + text_accounting_card->Text);
+			animal->Nodes->Add(card);
+			TreeNode^ owner = gcnew TreeNode("Владелец: " + text_owner->Text);
+			animal->Nodes->Add(owner);
 
-		TreeNode^ animal = gcnew TreeNode(text_animal->Text);
-		animal->Tag = "animal";
-		database->Nodes->Add(animal);
-		TreeNode^ type = gcnew TreeNode("Вид: " + text_type->Text);
-		animal->Nodes->Add(type);
-		TreeNode^ variety = gcnew TreeNode("Порода: " + text_variety->Text);
-		animal->Nodes->Add(variety);
-		TreeNode^ classification = gcnew TreeNode("Класс: " + text_class->Text);
-		animal->Nodes->Add(classification);
-		TreeNode^ food = gcnew TreeNode("Корм: " + text_food->Text);
-		animal->Nodes->Add(food);
-		TreeNode^ card = gcnew TreeNode("Карточка учета: " + text_accounting_card->Text);
-		animal->Nodes->Add(card);
-		TreeNode^ owner = gcnew TreeNode("Владелец: " + text_owner->Text);
-		animal->Nodes->Add(owner);
-
-		animal_count++;
-		animal_cnt->Text = ("Всего животных: " + animal_count);
+			animal_count++;
+			animal_cnt->Text = ("Всего животных: " + animal_count);
+		}
+		else
+		{
+			System::String^ message = "Введите наименование животного. Его свойства вводить необязательно.";
+			System::String^ caption = "Ошибка ввода";
+			MessageBox::Show(message, caption, MessageBoxButtons::OK);
+		}
+		
 	}
 	private: System::Void button_clear_fields_Click(System::Object^ sender, System::EventArgs^ e) 
 	{
