@@ -1,4 +1,4 @@
-# myFarm
+# myFarm - база данных на SQL
 ![thumbnail](https://user-images.githubusercontent.com/28227386/148646086-6e06c144-5b8e-49e2-b3a2-a4de827ed086.png)                     
 |              
 Thats a real course job !   
