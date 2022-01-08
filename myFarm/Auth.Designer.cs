@@ -73,7 +73,7 @@ namespace myFarm
             // 
             // login_btn
             // 
-            this.login_btn.Location = new System.Drawing.Point(164, 277);
+            this.login_btn.Location = new System.Drawing.Point(159, 280);
             this.login_btn.Name = "login_btn";
             this.login_btn.Size = new System.Drawing.Size(75, 23);
             this.login_btn.TabIndex = 4;

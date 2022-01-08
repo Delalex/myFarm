@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,16 @@ namespace myFarm
         public MainScreen()
         {
             InitializeComponent();
+        }
+        private void MainScreen_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void add_btn_Click(object sender, EventArgs e)
+        {
+            AddAnimal screen = new AddAnimal();
+            screen.Show();
         }
     }
 }
