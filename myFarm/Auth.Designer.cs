@@ -41,41 +41,45 @@ namespace myFarm
             // 
             // login_field
             // 
-            this.login_field.Location = new System.Drawing.Point(75, 199);
+            this.login_field.Location = new System.Drawing.Point(92, 202);
             this.login_field.Name = "login_field";
-            this.login_field.Size = new System.Drawing.Size(324, 20);
+            this.login_field.Size = new System.Drawing.Size(294, 20);
             this.login_field.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(27, 202);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.label1.Location = new System.Drawing.Point(34, 199);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 13);
+            this.label1.Size = new System.Drawing.Size(54, 22);
             this.label1.TabIndex = 1;
-            this.label1.Text = "LOGIN: ";
+            this.label1.Text = "Login ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(0, 234);
+            this.label2.Font = new System.Drawing.Font("Palatino Linotype", 12F);
+            this.label2.Location = new System.Drawing.Point(11, 231);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(73, 13);
+            this.label2.Size = new System.Drawing.Size(74, 22);
             this.label2.TabIndex = 2;
-            this.label2.Text = "PASSWORD:";
+            this.label2.Text = "Password";
             // 
             // password_field
             // 
-            this.password_field.Location = new System.Drawing.Point(75, 231);
+            this.password_field.Location = new System.Drawing.Point(92, 234);
             this.password_field.Name = "password_field";
-            this.password_field.Size = new System.Drawing.Size(324, 20);
+            this.password_field.Size = new System.Drawing.Size(294, 20);
             this.password_field.TabIndex = 3;
             // 
             // login_btn
             // 
-            this.login_btn.Location = new System.Drawing.Point(159, 280);
+            this.login_btn.Font = new System.Drawing.Font("Javanese Text", 11.25F);
+            this.login_btn.Location = new System.Drawing.Point(146, 280);
             this.login_btn.Name = "login_btn";
-            this.login_btn.Size = new System.Drawing.Size(75, 23);
+            this.login_btn.Size = new System.Drawing.Size(90, 34);
             this.login_btn.TabIndex = 4;
             this.login_btn.Text = "Login";
             this.login_btn.UseVisualStyleBackColor = true;
@@ -95,6 +99,7 @@ namespace myFarm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.ClientSize = new System.Drawing.Size(398, 326);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.login_btn);
