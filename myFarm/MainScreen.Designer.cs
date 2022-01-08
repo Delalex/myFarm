@@ -32,7 +32,7 @@ namespace myFarm
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainScreen));
             this.label1 = new System.Windows.Forms.Label();
             this.add_btn = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.delete_btn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -42,7 +42,7 @@ namespace myFarm
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Javanese Text", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(13, 9);
+            this.label1.Location = new System.Drawing.Point(13, 18);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(280, 47);
@@ -59,14 +59,15 @@ namespace myFarm
             this.add_btn.UseVisualStyleBackColor = true;
             this.add_btn.Click += new System.EventHandler(this.add_btn_Click);
             // 
-            // button2
+            // delete_btn
             // 
-            this.button2.Location = new System.Drawing.Point(338, 105);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(129, 40);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Удалить";
-            this.button2.UseVisualStyleBackColor = true;
+            this.delete_btn.Location = new System.Drawing.Point(338, 105);
+            this.delete_btn.Name = "delete_btn";
+            this.delete_btn.Size = new System.Drawing.Size(129, 40);
+            this.delete_btn.TabIndex = 2;
+            this.delete_btn.Text = "Удалить";
+            this.delete_btn.UseVisualStyleBackColor = true;
+            this.delete_btn.Click += new System.EventHandler(this.delete_btn_Click);
             // 
             // pictureBox1
             // 
@@ -84,12 +85,15 @@ namespace myFarm
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(508, 337);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.delete_btn);
             this.Controls.Add(this.add_btn);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "MainScreen";
             this.Text = "myFarm - Control Panel";
             this.Load += new System.EventHandler(this.MainScreen_Load);
@@ -103,7 +107,7 @@ namespace myFarm
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button add_btn;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button delete_btn;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

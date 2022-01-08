@@ -17,7 +17,10 @@ namespace myFarm
         {
             InitializeComponent();
         }
+        private void AddAnimal_Load(object sender, EventArgs e)
+        {
 
+        }
         private void button_add_Click(object sender, EventArgs e)
         {
             string animal_txt = animal_field.Text;

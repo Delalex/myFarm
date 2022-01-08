@@ -192,7 +192,8 @@ namespace myFarm
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "AddAnimal";
-            this.Text = "AddAnimal";
+            this.Text = "myFarm - AddAnimal";
+            this.Load += new System.EventHandler(this.AddAnimal_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

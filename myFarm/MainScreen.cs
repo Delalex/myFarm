@@ -24,8 +24,14 @@ namespace myFarm
 
         private void add_btn_Click(object sender, EventArgs e)
         {
-            AddAnimal screen = new AddAnimal();
-            screen.Show();
+            AddAnimal add_screen = new AddAnimal();
+            add_screen.Show();
+        }
+
+        private void delete_btn_Click(object sender, EventArgs e)
+        {
+            DeleteAnimal delete_screen = new DeleteAnimal();
+            delete_screen.Show();
         }
     }
 }
