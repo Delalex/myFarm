@@ -1,4 +1,0 @@
-C:\Users\Delalex\Desktop\Учеба\ТП\myFarm\Debug\myFarm.vcxproj.AssemblyReference.cache
-C:\Users\Delalex\Desktop\Учеба\ТП\myFarm\Debug\myFarm.MainScreen.resources
-C:\Users\Delalex\Desktop\Учеба\ТП\myFarm\Debug\myFarm.vcxproj.GenerateResource.cache
-C:\Users\Delalex\Desktop\Учеба\ТП\myFarm\Debug\myFarm.exe
