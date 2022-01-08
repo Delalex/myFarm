@@ -8,6 +8,7 @@ v1.0 - I realized which variant is right so iwe developed a real one !
 v1.5 - SQL Authorisation              
 v2.0 - Added an add animal option              
 v2.5 - Added delete animal feature                     
+v3.0 - About added                   
 |                          
 |                  
 |                                       
