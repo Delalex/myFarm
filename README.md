@@ -18,5 +18,5 @@ v1.5 - SQL Authorisation
 |                 
 |                 
 |                  
-MISCELANEOUS:              
+**MISCELANEOUS:**              
 Readme Styles - https://github.com/GnuriaN/format-README
