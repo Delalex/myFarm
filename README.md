@@ -10,7 +10,15 @@ v2.0 - Added an add animal option
 v2.5 - Added delete animal feature                     
 |                          
 |                  
-|                      
+|                                       
+**Установка БД:**               
+Панель управления - http://localhost/phpmyadmin/                  
+Имя БД - myfarm                              
+Таблица 1 - account                        
+Таблица 2 - animals                  
+|                          
+|                  
+|                                       
 **НА СЛУЧАЙ, ЕСЛИ ВОЗНИКАЕТ ОШИБКА:**              
 *1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(4502,5): warning MSB3026: не удалось скопировать "obj\Debug\myFarm.exe" в "bin\Debug\myFarm.exe". Повторная попытка 8 начнется через 1000 мс. Процесс не может получить доступ к файлу "bin\Debug\myFarm.exe", так как этот файл используется другим процессом. "myFarm (5604)" блокирует ...*                  
 1) Монитор ресурсов                   
