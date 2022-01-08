@@ -29,24 +29,27 @@ namespace myFarm
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Auth));
             this.login_field = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.password_field = new System.Windows.Forms.TextBox();
             this.login_btn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // login_field
             // 
-            this.login_field.Location = new System.Drawing.Point(95, 9);
+            this.login_field.Location = new System.Drawing.Point(75, 199);
             this.login_field.Name = "login_field";
-            this.login_field.Size = new System.Drawing.Size(404, 20);
+            this.login_field.Size = new System.Drawing.Size(324, 20);
             this.login_field.TabIndex = 0;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(47, 12);
+            this.label1.Location = new System.Drawing.Point(27, 202);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(46, 13);
             this.label1.TabIndex = 1;
@@ -55,7 +58,7 @@ namespace myFarm
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(20, 44);
+            this.label2.Location = new System.Drawing.Point(0, 234);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(73, 13);
             this.label2.TabIndex = 2;
@@ -63,14 +66,14 @@ namespace myFarm
             // 
             // password_field
             // 
-            this.password_field.Location = new System.Drawing.Point(95, 41);
+            this.password_field.Location = new System.Drawing.Point(75, 231);
             this.password_field.Name = "password_field";
-            this.password_field.Size = new System.Drawing.Size(404, 20);
+            this.password_field.Size = new System.Drawing.Size(324, 20);
             this.password_field.TabIndex = 3;
             // 
             // login_btn
             // 
-            this.login_btn.Location = new System.Drawing.Point(217, 83);
+            this.login_btn.Location = new System.Drawing.Point(164, 277);
             this.login_btn.Name = "login_btn";
             this.login_btn.Size = new System.Drawing.Size(75, 23);
             this.login_btn.TabIndex = 4;
@@ -78,22 +81,35 @@ namespace myFarm
             this.login_btn.UseVisualStyleBackColor = true;
             this.login_btn.Click += new System.EventHandler(this.login_btn_Click);
             // 
-            // MainScreen
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(0, -2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(400, 189);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
+            // 
+            // Auth
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(511, 128);
+            this.ClientSize = new System.Drawing.Size(398, 326);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.login_btn);
             this.Controls.Add(this.password_field);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.login_field);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "MainScreen";
-            this.Text = "myFarm";
+            this.Name = "Auth";
+            this.Text = "myFarm - Auth";
             this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -106,6 +122,7 @@ namespace myFarm
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox password_field;
         private System.Windows.Forms.Button login_btn;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
