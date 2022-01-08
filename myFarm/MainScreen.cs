@@ -19,7 +19,7 @@ namespace myFarm
         }
         private void MainScreen_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void add_btn_Click(object sender, EventArgs e)
@@ -32,6 +32,12 @@ namespace myFarm
         {
             DeleteAnimal delete_screen = new DeleteAnimal();
             delete_screen.Show();
+        }
+
+        private void about_btn_Click(object sender, EventArgs e)
+        {
+            About about_screen = new About();
+            about_screen.Show();
         }
     }
 }

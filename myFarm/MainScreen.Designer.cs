@@ -34,6 +34,7 @@ namespace myFarm
             this.add_btn = new System.Windows.Forms.Button();
             this.delete_btn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.about_btn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,7 +52,7 @@ namespace myFarm
             // 
             // add_btn
             // 
-            this.add_btn.Location = new System.Drawing.Point(338, 59);
+            this.add_btn.Location = new System.Drawing.Point(300, 57);
             this.add_btn.Name = "add_btn";
             this.add_btn.Size = new System.Drawing.Size(129, 40);
             this.add_btn.TabIndex = 1;
@@ -61,7 +62,7 @@ namespace myFarm
             // 
             // delete_btn
             // 
-            this.delete_btn.Location = new System.Drawing.Point(338, 105);
+            this.delete_btn.Location = new System.Drawing.Point(300, 103);
             this.delete_btn.Name = "delete_btn";
             this.delete_btn.Size = new System.Drawing.Size(129, 40);
             this.delete_btn.TabIndex = 2;
@@ -71,19 +72,31 @@ namespace myFarm
             // 
             // pictureBox1
             // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(21, 59);
+            this.pictureBox1.Location = new System.Drawing.Point(21, 57);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(256, 256);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
+            // about_btn
+            // 
+            this.about_btn.Location = new System.Drawing.Point(300, 273);
+            this.about_btn.Name = "about_btn";
+            this.about_btn.Size = new System.Drawing.Size(129, 40);
+            this.about_btn.TabIndex = 4;
+            this.about_btn.Text = "О программе";
+            this.about_btn.UseVisualStyleBackColor = true;
+            this.about_btn.Click += new System.EventHandler(this.about_btn_Click);
+            // 
             // MainScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 22F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(508, 337);
+            this.ClientSize = new System.Drawing.Size(439, 337);
+            this.Controls.Add(this.about_btn);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.delete_btn);
             this.Controls.Add(this.add_btn);
@@ -109,5 +122,6 @@ namespace myFarm
         private System.Windows.Forms.Button add_btn;
         private System.Windows.Forms.Button delete_btn;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button about_btn;
     }
 }
