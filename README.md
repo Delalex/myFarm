@@ -15,3 +15,8 @@ v1.5 - SQL Authorisation
 4) Завершаем !  
                
 ![image](https://user-images.githubusercontent.com/28227386/148645129-877c5d01-b4ee-41fe-9a52-1fb2d80e6fa5.png)
+|                 
+|                 
+|                  
+MISCELANEOUS:              
+Readme Styles - https://github.com/GnuriaN/format-README
