@@ -3,6 +3,29 @@
 |              
 Thats a real course job !   
 |                 
+|               
+|                      
+**SCREENSHOTS:**           
+![image](https://user-images.githubusercontent.com/28227386/149544545-6e55899e-9a42-4bc9-a91e-8a49c15df000.png)                                 
+*Main auth screen, need access to edit database*                         
+|                         
+![image](https://user-images.githubusercontent.com/28227386/149544587-8ef83ac0-3308-4345-96a0-74e4fe5d6c8d.png)                                 
+*Control panel used to edit database*                         
+|                         
+![image](https://user-images.githubusercontent.com/28227386/149544622-7cddd3f3-1ad8-4331-bc66-e5a0c74b9b12.png)                                 
+*About our program screen, nothing special*                         
+|                         
+![image](https://user-images.githubusercontent.com/28227386/149544707-475447c3-cf56-4669-b6f3-5b866053b4fc.png)                                 
+*Search needed data from database*                         
+|                         
+![image](https://user-images.githubusercontent.com/28227386/149544728-4c7180f0-de15-4dae-a0a6-4b1fc88567b4.png)                                 
+*Add animals through this screen*                         
+|                         
+![image](https://user-images.githubusercontent.com/28227386/149544756-cf2e50eb-76b8-491b-8254-cdfc30d0bf8c.png)                                 
+*Delete animals through this screen*                         
+|                         
+|                         
+|                         
 **CHANGELOG:**                      
 v1.0 - I realized which variant is right so iwe developed a real one !                   
 v1.5 - SQL Authorisation              
