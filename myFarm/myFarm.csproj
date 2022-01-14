@@ -48,7 +48,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>logo.ico</ApplicationIcon>
+    <ApplicationIcon>
+    </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MySql.Data, Version=8.0.27.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
@@ -93,6 +94,12 @@
     <Compile Include="Окна\DeleteAnimal.Designer.cs">
       <DependentUpon>DeleteAnimal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Окна\lookAnimals.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Окна\lookAnimals.Designer.cs">
+      <DependentUpon>lookAnimals.cs</DependentUpon>
+    </Compile>
     <Compile Include="Окна\MainScreen.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Окна\DeleteAnimal.resx">
       <DependentUpon>DeleteAnimal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Окна\lookAnimals.resx">
+      <DependentUpon>lookAnimals.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Окна\MainScreen.resx">
       <DependentUpon>MainScreen.cs</DependentUpon>
@@ -140,8 +150,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="ado.png" />
-    <Content Include="logo.ico" />
+    <None Include="Resources\logo.ico" />
+    <None Include="Ресурсы\ado.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
@@ -154,6 +164,27 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ресурсы\logo_about.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ресурсы\thumbnail_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ресурсы\thumbnail_git.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ресурсы\grass.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ресурсы\logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ресурсы\animal_node.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Ресурсы\pc_root_icon.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
