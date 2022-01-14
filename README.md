@@ -10,7 +10,8 @@ v2.0 - Added an add animal option
 v2.5 - Added delete animal feature                     
 v3.0 - About added                                          
 v3.5 - UI huge improvements                       
-v4.0 - Finish UI and Exit logic                   
+v4.0 - Finish UI and Exit logic       
+v4.5 - Small changes in UI n Logic                  
 |                          
 |                  
 |                                       
