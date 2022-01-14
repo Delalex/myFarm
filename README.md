@@ -12,6 +12,7 @@ v3.0 - About added
 v3.5 - UI huge improvements                       
 v4.0 - Finish UI and Exit logic       
 v4.5 - Small changes in UI n Logic                  
+v5.0 - Added view database option, other UI improvements                               
 |                          
 |                  
 |                                       
